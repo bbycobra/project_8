@@ -1,0 +1,69 @@
+/* GENERAL STYLE */
+
+* {
+    font-family: 'Playfair Display';
+}
+
+/* CONTAINERS */
+
+.grid-container{
+    padding: 9vh;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(350px, 1fr) );
+    grid-gap: 20px;
+}
+
+.card {
+    border: 1px black solid;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.modal {
+    width: 375px;
+    margin: 15% auto auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #778;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+    
+
+/* MISC */
+
+.title{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+img {
+    height: 90%;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.modal-close {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+.overlay-hidden {
+    display: none;
+}
