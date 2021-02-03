@@ -16,9 +16,9 @@
     grid-gap: 20px;
 }
 .card{
-    border: 1px black solid;
+    border: 2px black solid;
     background-color: white;
-    border-radius: 2%;
+    border-radius: 8px;
     display: grid;
     grid-template-areas: 
         "avatar name"
