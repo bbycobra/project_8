@@ -4,11 +4,15 @@
     font-family: 'Playfair Display';
 }
 
+body {
+    background-color:#FFEEE6;
+    height: 100vh;
+}
+
 /* CONTAINERS */
 
 .grid-container{
     padding: 9vh;
-    background-color: #FBF7F3;
 }
 .cards{
     display: grid;
@@ -35,6 +39,14 @@
     border: 1px solid #778;
     border-radius: 5px;
     padding: 30px 20px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#search-container{
+    margin: 4px 0 0 0;
 }
     
 
@@ -92,3 +104,26 @@ img {
 .hidden {
     display: none;
 }
+#search{
+    border: 2px black solid;
+    border-radius: 3px;
+    width: 300px;
+    background-color: #F2F4F6;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+#search:focus {
+    background-color: white;
+}
+.arrow-left {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+
+

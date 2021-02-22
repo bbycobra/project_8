@@ -15,14 +15,23 @@
     <div id="selected-user"></div>
 
     <div class="grid-container">
-        <div class="title">Awesome Starup Employee Directory</div>
-        <div class="cards">
+        <header class="main">
+            <div class="title">Awesome Starup Employee Directory</div>
+            <div class="search">
+                <input type="search" id="search" placeholder="Search Employee">
+            </div>
+        </header>
+        <div class="cards hidden">
+            <div class="card hidden"></div>
         </div>
     </div>
 
     <div class="overlay hidden">
         <div class="modal">
             <button class="modal-close">X</button>
+            <button class="arrow-left"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                <path d="M3.86 8.753l5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+              </svg></button>
             <div class="modal-content">
                 <img class="avatar" src="">
                 <div class="text-container">
@@ -35,6 +44,9 @@
                     <div class="birthdate">Birthday: 01/04/85</div>
                 </div>
             </div>
+            <button class="arrow-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+              </svg></button>
         </div>
     </div>
     <script src="js/main.js"></script>
