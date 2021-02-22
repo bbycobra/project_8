@@ -20,7 +20,7 @@ body {
     grid-gap: 20px;
 }
 .card{
-    border: 2px black solid;
+    border: 1px black solid;
     background-color: white;
     border-radius: 8px;
     display: grid;
@@ -114,6 +114,9 @@ img {
 }
 #search:focus {
     background-color: white;
+}
+.text-container {
+    line-height: 30px;
 }
 .arrow-left {
     position: absolute;
