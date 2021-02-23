@@ -19,7 +19,7 @@ function updateModal(employeeIndex){
             <div class="city">${employee.location.city}</div>
             <hr>
             <div class="phone">${employee.phone}</div>
-            <div class="address">${employee.location.street.number}, ${employee.location.street.name}</div>
+            <div class="address">${employee.location.street.number} ${employee.location.street.name}, ${employee.location.state} ${employee.location.postcode}</div>
             <div class="birthdate">Birthday: ${date.getMonth()}/${date.getDay()}/${date.getYear()}</div>
         </div>
     `;
